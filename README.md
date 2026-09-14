@@ -31,6 +31,10 @@ Revhook 把脚本编写、注入调试和 AI 辅助逆向放在同一个 App 里
 
 使用中遇到问题或有建议，欢迎提交 [Issue](https://github.com/mob1254/revhook/issues)。
 
+## 致谢
+
+感谢 [JsxposedX](https://jsxposed.org/) 与 [LINUX DO](https://linux.do/) 社区。
+
 ## 开源协议
 
 本项目基于 [GPL-3.0](LICENSE) 协议开源，由 JsxposedX 修改而来。
