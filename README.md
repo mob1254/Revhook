@@ -29,7 +29,7 @@ Revhook 把脚本编写、注入调试和 AI 辅助逆向放在同一个 App 里
 
 ## 问题反馈
 
-使用中遇到问题或有建议，欢迎提交 [Issue](https://github.com/mob1254/revhook/issues)。
+本项目只接受 [Issue](https://github.com/mob1254/revhook/issues)，暂不接受 Pull Request。
 
 ## 致谢
 
