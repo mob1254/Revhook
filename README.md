@@ -32,6 +32,14 @@ Revhook 在手机上编写 Hook 脚本、注入到目标应用，并查看运行
 - 后台持续运行
 - 完整日志查看、复制、导出
 
+## 使用方法
+
+打开首页，把下面三项点亮即可。
+
+- **Root**：给本应用授权 Root
+- **Xposed**：在 LSPosed 模块列表里启用 Revhook，再按提示重启
+- **Frida**：安装并启用 Revhook Frida 模块（Magisk / KernelSU）；未安装时卡片下方会提示
+
 ## 更新日志
 
 详见 [CHANGELOG.md](CHANGELOG.md)。
