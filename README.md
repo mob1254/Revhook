@@ -1,36 +1,39 @@
 # Revhook
 
-<img src="logo.png" width="120" alt="Revhook">
+> 面向 Android 的 Xposed / LSPosed / Frida Hook 调试工具
 
-Revhook 是面向 Android 的 Hook 调试工具，把 Xposed / LSPosed 脚本、Frida 注入和 AI 辅助逆向放在同一个 App 里。
-
-本项目基于 JsxposedX 修改，GNU GPL v3。桌面名 Revhook，包名独立，可与原版同时安装。
+Revhook 把脚本编写、注入调试和 AI 辅助逆向放在同一个 App 里。基于 Flutter，包名独立，可与 JsxposedX 原版同时安装。
 
 当前仓库只放介绍和更新日志。源码和安装包暂未公开。
 
-## 能做什么
+<img src="logo.png" width="96" alt="Revhook">
 
-- 用 XP / JS 或 Frida 对着目标应用写 Hook、看日志
-- AI 辅助看包、搜类、写脚本（接口自己配，不内置中转站）
-- 从原版 JsxposedX 补拷数据，或导出 / 导入本包备份
-- 设置里查看、复制、导出完整日志
+## 特性
 
-## 不是什么
+### 核心功能
 
-这是调试和学习用的工具，不针对任何游戏、平台或在线服务，也不提供作弊、绕过保护或违规用法。
+- **XP / JS 与 Frida**：对着目标应用写 Hook、看日志、改进程范围
+- **AI 辅助逆向**：自己配接口，写脚本、搜类、看包；提示词按功能自定义
+- **APK 分析**：仓库页直接拆包看类，可按字符串搜混淆类
+- **数据迁移**：从 JsxposedX 补拷，检测缺失并补迁；也可导出导入本包备份
+- **完整日志**：设置里查看、复制、导出，也可发给作者
 
-AI 只做辅助：解释、整理、给建议。输出可能有错，用之前自己看。
+### 调试相关
 
-## 反馈
-
-有问题开 [Issue](https://github.com/mob1254/revhook/issues)。写清版本、现象和怎么复现。不要贴密钥、Token 或完整抓包。
-
-功能请求也可以提，但不保证做。
+- 脚本日志过滤、Logcat
+- 批量导入 / 删除 XP 脚本，会话和脚本可改名
+- 自定义脚本、会话命名规则
+- 后台持续运行
+- 适配 KernelSU 上的 Revhook Frida 模块
 
 ## 更新日志
 
-完整记录见 [CHANGELOG.md](CHANGELOG.md)，按版本发布在 [Releases](https://github.com/mob1254/revhook/releases)。
+完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
-## 许可
+## 问题反馈
 
-[GNU GPL v3](LICENSE)。基于 JsxposedX 修改。
+使用中遇到问题或有建议，请提交 [Issue](https://github.com/mob1254/revhook/issues)。写清版本、现象和怎么复现。不要贴密钥、Token 或完整抓包。
+
+## 开源协议
+
+本项目基于 [GPL-3.0](LICENSE) 协议开源，基于 JsxposedX 修改。
