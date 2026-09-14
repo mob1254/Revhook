@@ -4,8 +4,6 @@
 
 Revhook 把脚本编写、注入调试和 AI 辅助逆向放在同一个 App 里。基于 Flutter，包名独立，可与 JsxposedX 原版同时安装。
 
-当前仓库只放介绍和更新日志。源码和安装包暂未公开。
-
 <img src="logo.png" width="96" alt="Revhook">
 
 ## 特性
@@ -32,7 +30,7 @@ Revhook 把脚本编写、注入调试和 AI 辅助逆向放在同一个 App 里
 
 ## 问题反馈
 
-使用中遇到问题或有建议，请提交 [Issue](https://github.com/mob1254/revhook/issues)。写清版本、现象和怎么复现。不要贴密钥、Token 或完整抓包。
+使用中遇到问题或有建议，请提交 [Issue](https://github.com/mob1254/revhook/issues)。
 
 ## 开源协议
 
