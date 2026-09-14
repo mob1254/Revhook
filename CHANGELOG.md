@@ -4,8 +4,6 @@
 
 格式遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，版本号遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)。
 
-早期内测号 6.0.x / 6.1.0 分别对应 0.x / 1.0.0（例如 0.1.0 = 6.0.1，0.2.0 = 6.0.2，1.0.0 = 6.1.0）。中间没有 0.5、0.6。
-
 ## [1.0.0] - 2026-09-14
 
 ### 新增
