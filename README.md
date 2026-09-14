@@ -37,4 +37,4 @@ Revhook 把脚本编写、注入调试和 AI 辅助逆向放在同一个 App 里
 
 ## 开源协议
 
-本项目基于 [GPL-3.0](LICENSE) 协议开源，由 JsxposedX 修改而来。
+本项目由 AI 基于 JsxposedX 二改，遵循 [GPL-3.0](LICENSE) 协议开源。
