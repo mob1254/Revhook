@@ -2,7 +2,7 @@
 
 > 面向 Android 的 Xposed / LSPosed / Frida Hook 调试工具
 
-Revhook 把脚本编写、注入调试和 AI 辅助逆向放在同一个 App 里。基于 Flutter，包名独立，可与 JsxposedX 原版同时安装。
+Revhook 把脚本编写、注入调试和 AI 辅助逆向放在同一个 App 里。
 
 <img src="logo.png" width="96" alt="Revhook">
 
@@ -26,12 +26,12 @@ Revhook 把脚本编写、注入调试和 AI 辅助逆向放在同一个 App 里
 
 ## 更新日志
 
-完整记录见 [CHANGELOG.md](CHANGELOG.md)。
+见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 问题反馈
 
-使用中遇到问题或有建议，请提交 [Issue](https://github.com/mob1254/revhook/issues)。
+[Issue](https://github.com/mob1254/revhook/issues)
 
 ## 开源协议
 
-本项目基于 [GPL-3.0](LICENSE) 协议开源，基于 JsxposedX 修改。
+基于 [GPL-3.0](LICENSE) 开源，基于 JsxposedX 修改。
