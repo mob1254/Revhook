@@ -1,5 +1,11 @@
 # Changelog
 
+本文档记录 Revhook 的重要变更。
+
+格式遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，版本号遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)。
+
+## [6.1.0] - 2026-09-13
+
 汇总 **6.0.1** 至 **6.1.0** 的变更。
 
 ### 新增
@@ -19,7 +25,7 @@
 - 点会话标题即可改名；Xposed、Frida 脚本也可以改名
 - 可用自定义规则控制新建脚本、会话的默认名称
 - 可在设置里开启后台持续运行，避免被系统杀掉
-- 设置里可查看、复制、导出完整日志，也可发给作者
+- 可查看、复制、导出完整日志
 - 适配 KernelSU 上的 Revhook Frida 模块
 
 ### 变更
@@ -70,3 +76,5 @@
 - 修复目标应用闪退后，控制台被系统日志灌满的问题
 - 修复控制台里有 hook 记录，点进去详细日志却是空的问题
 - 修复完整日志第一次打开会卡死的问题
+
+[6.1.0]: https://github.com/mob1254/Revhook/releases/tag/6.1.0
